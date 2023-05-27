@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+.left h2{
+    position: relative;
+    left: 38px;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: normal;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    /* background-color: black; */
+}
+.middle{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.middle div a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 200;
+    font-style: normal;
+}
+.right{
+    position: relative;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.insta,.fb,.whatsapp{
+    position: relative;
+    top: 7px;
+}
+.fb{
+    position: relative;
+    right: 6px;
+}
+.pizza{
+    height: 1017px;
+    width: 1786px;
+    left: -23px;
+    top: 100px;
+    border-radius: 0px;
+}
+.pizza-content h1{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 100px;
+    background: none;
+}
+.horizontal-line-1{
+    width: 440px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    top: 470px;
+    left: 100px;
+}
+.about-pizza{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    font-size: 30px;
+    font-style: normal;
+    background: none;
+}
+.about-us{
+    background-color: black;
+}
+.about-us h1{
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    top: 50px;
+}
+.hl-2{
+    width: 400px;
+    height: 10px;
+    background-color: red;
+    position: relative;
+    left: 600px;
+    top: 60px;
+}
+.hl-3{
+    width: 400px;
+    height: 5px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+    left: 200px;
+}
+.para-1{
+    width: 400px;
+    font-size: 20px;
+    position: relative;
+    left: 200px;
+    top: 200px;
+    background: none;
+}
+.dough{
+    position: relative;
+    left: 800px;
+    width: 470px;
+    height: 500px;
+    bottom: 170px;
+}
+.menu #h1{
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    bottom: 80px;
+}
+.hl-4{
+    width: 400px;
+    height: 10px;
+    background-color: red;
+    position: relative;
+    left: 600px;
+    bottom: 60px;
+}
+.menu-para{
+    width: 1200px;
+    position: relative;
+    left: 200px;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 80px;
+}
+.grid-content{
+    display: grid;
+    grid-template-columns: repeat(2,30%);
+    position: relative;
+    right: 40px;
+    justify-content: center;
+    column-gap: 160px;
+    row-gap: 50px;
+}
+.pizza-img-para{
+    display: flex;
+    gap: 30px;
+}
+.para h1{
+    font-size: 23px;
+    margin-bottom: 10px;
+    color: orange;
+}
+.para p{
+    font-size: 20px;
+    width: 300px;
+}
+.find-us h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.hl-5{
+    width: 400px;
+    height: 10px;
+    background-color: red;
+    position: relative;
+    left: 600px;
+}
+.find-us-left{
+    width: 500px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.find-us-right{
+    position: relative;
+    left: 800px;
+    width: 400px;
+}
+.find-us-left p{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.location-logo{
+    width: 40px;
+}
+.location-logo .oval-1{
+    width: 40px;
+}
+.location-logo .oval-2{
+    width: 20px;
+    position: relative;
+    left: 9px;
+    bottom: 45px;
+}
+.location-content{
+    position: relative;
+    left: 70px;
+    bottom: 65px;
+    font-size: 20px;
+}
+.find-us-right{
+    width: 600px;
+    position: relative;
+    left: 900px;
+    bottom: 320px;
+}
+.find-us-right img{
+    width: 600px;
+}
+.phone-logo{
+    width: 50px;
+    margin-top: 20px;
+}
+.phone-numbers{
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+    font-size: 20px;
+    line-height: 28px;
+}
+.mail{
+    width: 100px;
+    position: relative;
+    left: 700px;
+}
+.hat{
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+.face{
+    position: relative;
+    left: 140px;
+    bottom: 180px;
+}
+.body{
+    position: relative;
+    left: 60px;
+    bottom: 80px;
+}
+.hand{
+    position: relative;
+    bottom: 180px;
+    left: 50px;
+}
+.plate{
+    position: relative;
+    bottom: 210px;
+    right: 20px;
+}
+.mail{
+    width: 80px;
+    position: relative;
+    bottom: 150px;
+    right: 300px;
+}
+footer p{
+    position: relative;
+    left: 1270px;
+    bottom: 200px;
+    font-size: 25px;
+}
+.footer .phone-no{
+    position: relative;
+    left: 1120px;
+    bottom: 150px;
+}
